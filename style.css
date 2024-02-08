@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Oxygen:wght@300;400;700&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+body {
+  background-color: grey;
+}
+
+.container {
+  max-width: 1550px;
+  margin: 0 auto;
+}
+.header {
+  height: 80px;
+  border-bottom: 1px solid white;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+.photo__left {
+  width: 30px;
+  height: 30px;
+}
+.header__btn-list {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  color: blue;
+}
+.intro__content {
+  display: flex;
+  width: 250px;
+  height: 200px;
+  gap: 20px;
+  margin-left: 10px;
+}
+.intro__content-bottom {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  width: 450px;
+  height: 450px;
+  margin-left: 60px;
+}
+.facts {
+  margin-top: 101px;
+}
+.facts__content {
+  display: flex;
+  gap: 102px;
+}
+.facts__item:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.facts__title {
+  color: #333;
+  font-size: 40px;
+  line-height: 48px;
+  font-size: 70px;
+}
+.facts__subtitle {
+  color: black(51, 51, 51, 0.9);
+  font-size: 18px;
+  line-height: 29.7px; /* 165% */
+}
+.facts__mini-title {
+  color: white;
+  font-size: 14px;
+  line-height: 23.1px; /* 165% */
+  text-transform: uppercase;
+}
+.facts__text {
+  color: white;
+  line-height: 26.4px; /* 165% */
+  font-size: 26px;
+}
+.facts__titlee {
+  color: #333;
+  font-size: 40px;
+  line-height: 48px;
+  font-size: 50px;
+}
+.facts__btn {
+  width: 215px;
+  height: 48px;
+  color: #efeee8;
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  background: #333;
+  cursor: pointer;
+  border: none;
+  margin-left: 500px;
+}
+.facts__btn > img {
+  margin-left: 25px;
+}
+.facts__img {
+  width: 600px;
+  height: 500px;
+  margin-left: 40px;
+}
+.facts__btn {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.facts__audio {
+  position: relative;
+  bottom: 60px;
+}
+.facts__aside {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.aside__img {
+  width: 600px;
+  height: 600px;
+  margin-left: 40px;
+}
+.page__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px;
+}
+.page__img {
+  width: 600px;
+  height: 600px;
+  margin-left: 40px;
+}
+.aside__img1 {
+  width: 700px;
+  height: 600px;
+}
+.sidebar__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.sidebar__img {
+  width: 600px;
+  height: 600px;
+  margin-left: 40px;
+}
+.img66 {
+  width: 400px;
+  height: 300px;
+}
+.div66 {
+  display: flex;
+}
+.info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  color: #0b0e2c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.008px;
+  width: 389px;
+}
+.info__content {
+  margin-top: 90px;
+}
+.info__subtitle {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.004px; /* 266.7% */
+  width: 525px;
+  margin-top: 20px;
+}
+.info__btns {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+.info__btn-bottom {
+  margin-top: 10px;
+  display: flex;
+  gap: 14px;
+}
+.info__btn button,
+.info__btn-bottom button {
+  border-radius: 50px;
+  border: 1px solid black;
+  padding: 15px 35px;
+  cursor: pointer;
+}
+.info__page {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.info__btn__left {
+  color: red;
+  background-color: #0b0e2c;
+}
+.info__btn__two {
+  color: black;
+  background-color: red;
+}
+.info__video{
+  display: flex;
+  gap:40px;
+}
+.section__container{
+  display: flex;
+  justify-content: space-around;
+  height: 900px;
+  width: 900px;
+  margin-left: 300px;
+  gap: 30px;
+  margin-top: 40px;
+
+}
+.section__video__top{
+  display: flex;
+  width: 00px;
+  height: 900px;
+  margin-top: 40px;
+
+  gap:40px;
+
+}
