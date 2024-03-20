@@ -8,6 +8,7 @@
 }
 body {
   background-color: grey;
+  max-width: 1440px;
 }
 
 .container {
@@ -227,11 +228,11 @@ h3 {
   color: black;
   background-color: red;
 }
-.info__video{
+.info__video {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
-.section__container{
+.section__container {
   display: flex;
   justify-content: space-around;
   height: 900px;
@@ -239,14 +240,12 @@ h3 {
   margin-left: 300px;
   gap: 30px;
   margin-top: 40px;
-
 }
-.section__video__top{
+.section__video__top {
   display: flex;
   width: 00px;
   height: 900px;
   margin-top: 40px;
 
-  gap:40px;
-
+  gap: 40px;
 }
